@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { ShopComponent } from './shop/shop.component';
 import { ShopModule } from './shop/shop.module';
+import { PagingHeaderComponent } from './shared/components/paging-header/paging-header.component';
 
 @NgModule({
   declarations: [
