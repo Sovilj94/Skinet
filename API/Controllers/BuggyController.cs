@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using API.Errors;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +31,8 @@ namespace API.Controllers
         public ActionResult GetServerError()
         {
                 var s = _context.Products.Find(42);
+
+                
 
                 var thing = s.ToString();
 
