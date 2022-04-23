@@ -26,9 +26,6 @@ export class TextInputComponent implements OnInit, ControlValueAccessor {
     control.setValidators(validatiors);
     control.setAsyncValidators(asyncValidator);
     control.updateValueAndValidity();
-
-    console.log(this.label);
-
   }
 
   onChange(event){
